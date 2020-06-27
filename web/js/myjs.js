@@ -31,6 +31,7 @@
                 let c = $(".like-counter").html();
                 c++;
                 $('.like-counter').html(c);
+                        $("#likestop").hide();
             }
         },
         error: function (jqXHR, textStatus, errorThrown) {
